@@ -1,0 +1,14 @@
+Coloque aqui as fotos reais do seu trabalho, com estes nomes:
+
+  hero.jpg        Foto do topo. Carro escuro com reflexos fortes. Horizontal, 1920x1080.
+  polidor.jpg     Você trabalhando (polindo um carro). Vertical, 900x1100.
+  trabalho1.jpg   Fotos de carros prontos para a galeria. Quadradas ou horizontais,
+  trabalho2.jpg   cerca de 1400px de largura. Pode colocar quantas quiser.
+  ...
+  og.jpg          Imagem que aparece ao compartilhar o link no WhatsApp. 1200x630.
+
+Depois, abra js/config.js e troque os endereços do Unsplash pelos nomes acima,
+por exemplo:  hero: "img/hero.jpg"
+
+Dica: reduza as fotos antes de enviar (ex.: squoosh.app), deixando cada uma
+com menos de 300 KB. O site fica bem mais rápido no celular.

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ===================== SEO / COMPARTILHAMENTO ===================== -->
+  <!-- TROCAR: título, descrição, cidade e endereço do site nas linhas abaixo -->
+  <title>Reflexo Polimento Cristalizado | Brilho de zero km em Manaus - AM</title>
+  <meta name="description" content="Polimento cristalizado profissional em Manaus - AM. Brilho intenso, remoção de riscos leves e proteção da pintura. Atendimento a domicílio. Peça seu orçamento grátis pelo WhatsApp.">
+  <meta name="theme-color" content="#0a0b0e">
+  <link rel="canonical" href="https://www.seusite.com.br/"> <!-- TROCAR -->
+
+  <!-- Open Graph: é o que aparece ao compartilhar o link no WhatsApp/Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Reflexo Polimento Cristalizado"> <!-- TROCAR -->
+  <meta property="og:title" content="Seu carro com brilho de zero km | Reflexo Polimento"> <!-- TROCAR -->
+  <meta property="og:description" content="Polimento cristalizado profissional em Manaus - AM. Orçamento grátis pelo WhatsApp."> <!-- TROCAR -->
+  <meta property="og:url" content="https://www.seusite.com.br/"> <!-- TROCAR -->
+  <!-- TROCAR: use o endereço COMPLETO da imagem (ex: https://www.seusite.com.br/img/hero.jpg), ideal 1200x630 -->
+  <meta property="og:image" content="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200&h=630&q=75&auto=format&fit=crop">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Carro com pintura espelhada após polimento cristalizado">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2 29 13 16 30 3 13Z' fill='%2333b5ff'/%3E%3C/svg%3E">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800;900&display=swap">
+
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+  <!-- ===================== 1. HEADER ===================== -->
+  <header class="header" id="topo">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Início">
+        <svg class="logo__icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 29 13 16 30 3 13Z"/><path d="M3 13h26M10 13l6 17 6-17M10 13l6-11 6 11" fill="none"/></svg>
+        <span class="logo__text">
+          <strong data-cfg="marca">Reflexo Polimento</strong> <!-- TROCAR em js/config.js -->
+          <small data-cfg="marcaDestaque">Cristalizado</small>
+        </span>
+      </a>
+      <a class="btn btn--primary btn--sm js-whatsapp" href="https://wa.me/5592999999999" target="_blank" rel="noopener">
+        <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+        <span class="hide-xs">Agendar pelo WhatsApp</span><span class="show-xs">Agendar</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== 2. HERO ===================== -->
+    <section class="hero" id="inicio">
+      <!-- TROCAR imagem em js/config.js (imagens.hero) – ideal 1920x1080, carro escuro com reflexos -->
+      <img class="hero__bg" data-cfg-img="hero" src="img/hero.webp" alt="Volkswagen Voyage grafite com pintura brilhando em estacionamento" fetchpriority="high">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <p class="eyebrow reveal">Estética automotiva premium</p>
+        <h1 class="hero__title reveal">Seu carro com brilho de <span class="gloss-text">zero km</span></h1>
+        <p class="hero__subtitle reveal">Polimento cristalizado profissional em <strong data-cfg="cidade">Manaus - AM</strong></p>
+        <div class="hero__actions reveal">
+          <a class="btn btn--primary btn--lg js-whatsapp" href="https://wa.me/5592999999999" target="_blank" rel="noopener">
+            <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+            Solicitar orçamento grátis
+          </a>
+          <a class="btn btn--ghost btn--lg" href="#galeria">Ver trabalhos</a>
+        </div>
+        <ul class="hero__badges hero__badges--destaque reveal">
+          <li data-domicilio><svg class="ico" aria-hidden="true"><use href="#i-home"/></svg> Atendimento a domicílio</li>
+          <li data-endereco class="is-link">
+            <a class="js-maps" href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20Kako%20Caminha%2C%2044%20-%20Centro%2C%20Manaus%20-%20AM" target="_blank" rel="noopener" aria-label="Abrir endereço no Google Maps">
+              <svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg> <span>Local próprio: <span data-cfg="endereco">Rua Kako Caminha, 44 - Centro</span></span>
+              <span class="badge-arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="hero__checks reveal">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg> Orçamento sem compromisso</li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg> Produtos profissionais</li>
+        </ul>
+      </div>
+      <a href="#o-que-e" class="hero__scroll" aria-label="Rolar para baixo"><span></span></a>
+    </section>
+
+    <!-- ===================== 3. O QUE É ===================== -->
+    <section class="section" id="o-que-e">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">O serviço</p>
+          <h2 class="section__title">O que é o polimento cristalizado?</h2>
+          <!-- TROCAR (opcional): texto explicativo -->
+          <p class="section__lead">
+            É um tratamento que <strong>corrige</strong> a pintura do seu carro e depois aplica uma
+            <strong>camada protetora cristalizada</strong> por cima. Primeiro, o polimento tira o aspecto
+            opaco, as marcas de lavagem e os riscos superficiais. Em seguida, a cristalização “sela” a
+            pintura, deixando um brilho profundo, de vitrine, e uma proteção que dura muito mais que uma cera comum.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon"><svg aria-hidden="true"><use href="#i-sparkle"/></svg></div>
+            <h3>Brilho intenso e profundo</h3>
+            <p>Efeito espelhado que realça a cor original e deixa a pintura com cara de carro novo.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon"><svg aria-hidden="true"><use href="#i-eraser"/></svg></div>
+            <h3>Adeus riscos leves</h3>
+            <p>Remove riscos superficiais, marcas de lavagem, manchas de chuva ácida e aspecto opaco.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon"><svg aria-hidden="true"><use href="#i-shield"/></svg></div>
+            <h3>Pintura protegida</h3>
+            <p>Camada que protege contra sol forte, chuva, poluição, resina de árvore e fezes de pássaros.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon"><svg aria-hidden="true"><use href="#i-trend"/></svg></div>
+            <h3>Carro mais valorizado</h3>
+            <p>Pintura bem cuidada causa ótima primeira impressão e ajuda a vender por um preço melhor.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 4. COMO FUNCIONA ===================== -->
+    <section class="section section--alt" id="como-funciona">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Passo a passo</p>
+          <h2 class="section__title">Como funciona</h2>
+          <p class="section__lead">Um processo técnico, feito com calma e atenção a cada detalhe.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <h3>Lavagem técnica e descontaminação</h3>
+            <p>Lavagem detalhada e remoção de sujeiras impregnadas, piche e resíduos que a lavagem comum não tira.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">02</span>
+            <h3>Correção da pintura</h3>
+            <p>Polimento com máquina e compostos profissionais para eliminar riscos leves, manchas e opacidade.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">03</span>
+            <h3>Cristalização</h3>
+            <p>Aplicação da proteção cristalizada, que sela a pintura e garante o brilho profundo e duradouro.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">04</span>
+            <h3>Inspeção final e entrega</h3>
+            <p>Revisão minuciosa sob luz própria, com orientações de cuidado para o brilho durar muito mais.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== 5. GALERIA ===================== -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Portfólio</p>
+          <h2 class="section__title">Galeria de trabalhos</h2>
+          <p class="section__lead">Alguns carros que já passaram pelo polimento cristalizado.</p>
+        </div>
+
+        <!-- Grid de fotos: definido em js/config.js (galeria) – TROCAR -->
+        <div class="gallery" id="gallery"></div>
+      </div>
+    </section>
+
+    <!-- ===================== 6. SOBRE ===================== -->
+    <section class="section section--alt" id="sobre">
+      <div class="container about">
+        <div class="about__media reveal">
+          <!-- TROCAR imagem em js/config.js (imagens.polidor) – ideal 900x1100, foto do polidor trabalhando -->
+          <img data-cfg-img="polidor" src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=900&q=75&auto=format&fit=crop" alt="Polidor profissional cuidando da pintura de um carro" loading="lazy" width="900" height="1100">
+        </div>
+        <div class="about__text">
+          <p class="eyebrow reveal">Sobre o profissional</p>
+          <h2 class="section__title reveal">Prazer, sou o <span data-cfg="nomePolidor">Messias Ferreira Batista</span></h2>
+          <!-- TROCAR: texto sobre o profissional -->
+          <p class="reveal">
+            Sou apaixonado por carros desde sempre e transformei essa paixão em profissão. Há anos me dedico
+            à estética automotiva, com cursos de especialização em correção de pintura e cristalização.
+          </p>
+          <p class="reveal">
+            Trato cada carro como se fosse meu: sem pressa, com luz de inspeção, produtos de linha profissional
+            e muito cuidado com cada detalhe. O resultado você vê no brilho — e sente na hora de vender.
+          </p>
+          <ul class="stats reveal" id="stats"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 8. CTA FINAL ===================== -->
+    <section class="cta" id="agendar">
+      <div class="container cta__inner reveal">
+        <h2 class="cta__title">Agende agora e devolva o <span class="gloss-text">brilho</span> ao seu carro</h2>
+        <p class="cta__text">Mande uma mensagem com o modelo do seu carro e receba seu orçamento grátis.</p>
+        <ul class="cta__places">
+          <li data-domicilio><svg class="ico" aria-hidden="true"><use href="#i-home"/></svg> Vou até você: atendimento a domicílio</li>
+          <li data-endereco><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg> <span>Ou traga seu carro:</span> <a class="js-maps" href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20Kako%20Caminha%2C%2044%20-%20Centro%2C%20Manaus%20-%20AM" target="_blank" rel="noopener"><span data-cfg="endereco">Rua Kako Caminha, 44 - Centro</span></a></li>
+        </ul>
+        <a class="btn btn--primary btn--xl js-whatsapp" href="https://wa.me/5592999999999" target="_blank" rel="noopener">
+          <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+          Chamar no WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== 9. RODAPÉ ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <p class="footer__brand"><span data-cfg="marca">Reflexo Polimento</span> <span data-cfg="marcaDestaque">Cristalizado</span></p>
+        <p class="footer__muted" data-endereco><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg> <a class="js-maps" href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20Kako%20Caminha%2C%2044%20-%20Centro%2C%20Manaus%20-%20AM" target="_blank" rel="noopener"><span data-cfg="endereco">Rua Kako Caminha, 44 - Centro</span>, <span data-cfg="cidade">Manaus - AM</span></a></p>
+        <p class="footer__muted"><svg class="ico" aria-hidden="true"><use href="#i-home"/></svg> <span data-domicilio>Também atendemos a domicílio em </span><span data-cfg="cidade">Manaus - AM</span></p>
+      </div>
+      <ul class="footer__links">
+        <li><a class="js-whatsapp" href="https://wa.me/5592999999999" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg> <span data-cfg="whatsappFormatado">(92) 99999-9999</span></a></li>
+        <li data-instagram><a class="js-instagram" href="https://instagram.com/reflexo.polimento" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-instagram"/></svg> <span>@<span data-cfg="instagram">reflexo.polimento</span></span></a></li>
+      </ul>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="ano">2026</span> <span data-cfg="marca">Reflexo Polimento</span>. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ===================== BOTÃO FLUTUANTE WHATSAPP ===================== -->
+  <a class="wa-float js-whatsapp" href="https://wa.me/5592999999999" target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp">
+    <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
+  </a>
+
+  <!-- ===================== LIGHTBOX ===================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada" hidden>
+    <button class="lightbox__btn lightbox__close" type="button" aria-label="Fechar">&times;</button>
+    <button class="lightbox__btn lightbox__prev" type="button" aria-label="Foto anterior">&#8249;</button>
+    <figure class="lightbox__figure">
+      <img class="lightbox__img" src="" alt="">
+      <figcaption class="lightbox__caption"></figcaption>
+    </figure>
+    <button class="lightbox__btn lightbox__next" type="button" aria-label="Próxima foto">&#8250;</button>
+  </div>
+
+  <!-- ===================== ÍCONES (SVG) ===================== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.9-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.89 9.88m8.41-18.3A11.81 11.81 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.94L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.6L19.5 10.5 13.9 12.4 12 18l-1.9-5.6L4.5 10.5l5.6-1.9z"/><path d="M19 3v4M17 5h4M5 17v3M3.5 18.5h3"/></symbol>
+    <symbol id="i-eraser" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16"/><path d="M6 12l7-7 6 6-7 7H9z"/><path d="M10 8l6 6"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+    <symbol id="i-trend" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-5h4v5"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></symbol>
+  </svg>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
