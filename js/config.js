@@ -15,7 +15,7 @@
 
 const CONFIG = {
   // ---------- Dados do profissional ----------
-  marca: "Reflexo Polimento",                 // TROCAR – nome da marca
+  marca: "MB Polimento",                 // TROCAR – nome da marca
   marcaDestaque: "Cristalizado",             // TROCAR – 2ª linha do logo (ou "" para esconder)
   nomePolidor: "Messias Ferreira Batista",   // nome do polidor
   whatsapp: "5592999999999",                 // TROCAR – 55 + DDD + número, só dígitos

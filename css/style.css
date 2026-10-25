@@ -97,7 +97,7 @@ strong { color: #fff; font-weight: 600; }
 .header.is-scrolled { background: rgba(10, 11, 14, .82); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-color: var(--line); }
 .header__inner { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .logo { display: flex; align-items: center; gap: 10px; min-width: 0; }
-.logo__icon { width: 30px; height: 30px; flex: none; fill: var(--accent); stroke: rgba(255,255,255,.55); stroke-width: .9; filter: drop-shadow(0 0 10px var(--accent-glow)); }
+.logo__icon { width: 34px; height: 34px; flex: none; filter: drop-shadow(0 0 10px rgba(255, 122, 0, .45)); }
 .logo__text { display: flex; flex-direction: column; line-height: 1.05; font-family: var(--font-title); min-width: 0; }
 .logo__text strong { font-weight: 800; font-size: 1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 @media (max-width: 359px) { .logo__text strong { font-size: .88rem; } .logo__icon { width: 24px; height: 24px; } }
