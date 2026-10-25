@@ -63,4 +63,10 @@ Para adaptar a página a outro negócio, edite apenas `js/config.js`. Para mudar
 
 ---
 
-Desenvolvido por **[mdrs0402](https://github.com/mdrs0402)**. Fique à vontade para entrar em contato!
+## Autor
+
+**Alan Medeiros**, desenvolvedor front-end
+
+[![GitHub](https://img.shields.io/badge/GitHub-mdrs0402-181717?logo=github)](https://github.com/mdrs0402)
+
+Fique à vontade para entrar em contato!
