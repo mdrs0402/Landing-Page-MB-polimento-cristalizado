@@ -65,8 +65,9 @@ Para adaptar a página a outro negócio, edite apenas `js/config.js`. Para mudar
 
 ## Autor
 
-**Alan Medeiros**, desenvolvedor front-end
+**Alan Medeiros**: Desenvolvedor Web e Estudante de Programação
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alan%20Medeiros-0A66C2?logo=linkedin)](https://www.linkedin.com/in/alan-medeiros-40a924416/)
 [![GitHub](https://img.shields.io/badge/GitHub-mdrs0402-181717?logo=github)](https://github.com/mdrs0402)
 
 Fique à vontade para entrar em contato!
