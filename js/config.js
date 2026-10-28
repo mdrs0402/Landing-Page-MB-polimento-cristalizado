@@ -18,7 +18,7 @@ const CONFIG = {
   marca: "MB Polimento",                 // TROCAR – nome da marca
   marcaDestaque: "Cristalizado",             // TROCAR – 2ª linha do logo (ou "" para esconder)
   nomePolidor: "Messias Ferreira Batista",   // nome do polidor
-  whatsapp: "5592999999999",                 // TROCAR – 55 + DDD + número, só dígitos
+  whatsapp: "559292774973",                 // TROCAR – 55 + DDD + número, só dígitos
   cidade: "Manaus - AM",                     // TROCAR – cidade / região
   atendeDomicilio: true,                     // TROCAR – true = sim | false = não
   endereco: "Rua Kako Caminha, 44 - Centro", // endereço do local próprio (ou "" para esconder)
