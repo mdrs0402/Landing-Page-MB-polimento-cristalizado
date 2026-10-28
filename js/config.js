@@ -22,7 +22,7 @@ const CONFIG = {
   cidade: "Manaus - AM",                     // TROCAR – cidade / região
   atendeDomicilio: true,                     // TROCAR – true = sim | false = não
   endereco: "Rua Kako Caminha, 44 - Centro", // endereço do local próprio (ou "" para esconder)
-  instagram: "reflexo.polimento",            // TROCAR – sem o @ (ou "" para esconder)
+  instagram: "mbpolimentoscristalizado",     // TROCAR – sem o @ (ou "" para esconder)
 
   // Mensagem que já vem escrita quando o cliente abre o WhatsApp
   mensagemWhatsapp:
