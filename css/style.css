@@ -296,7 +296,7 @@ strong { color: #fff; font-weight: 600; }
 .about { display: grid; gap: 40px; align-items: center; }
 @media (min-width: 900px) { .about { grid-template-columns: 5fr 6fr; gap: 72px; } }
 .about__media { position: relative; }
-.about__media img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius); border: 1px solid var(--line); }
+.about__media img { width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; object-position: center top; border-radius: var(--radius); border: 1px solid var(--line); }
 .about__media::before {
   content: ""; position: absolute; inset: 18px -18px -18px 18px; z-index: -1; border-radius: var(--radius);
   border: 1px solid rgba(51,181,255,.35);

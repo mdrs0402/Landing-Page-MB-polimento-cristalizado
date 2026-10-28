@@ -38,7 +38,7 @@ const CONFIG = {
   // ---------- Imagens principais ----------
   imagens: {
     hero:    "img/hero.webp",
-    polidor: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=900&q=75&auto=format&fit=crop",  // TROCAR → "img/polidor.jpg"
+    polidor: "img/polidor.jpg",
   },
 
   // ---------- Galeria de trabalhos ----------
